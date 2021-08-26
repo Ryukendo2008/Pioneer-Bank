@@ -1,0 +1,17 @@
+body{
+    padding: 100px;
+}
+.form-area{
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px grey;
+}
+#trans-area{
+    display: none;
+}
+#trans-item{
+    border-radius: 10px;
+}
+#tran-area{
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px grey;
+}

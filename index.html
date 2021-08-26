@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pioneer Bank</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <div id="login-area">
+        <h1 class="text-center pb-4">Welcome to Pioneer Bank</h1>
+        <div class="p-4 form-area">
+            <h4 class="mb-3">Login</h4>
+            <input type="email" class="form-control" name="" id="" placeholder="Email"><br>
+            <input type="password" class="form-control" name="" id="" placeholder="Password"><br>
+            <button id="login" class="btn btn-success">Enter</button>
+        </div>
+    </div>
+
+    <div id="trans-area">
+        <h1 class="text-center">Transaction Area</h1><br>
+        <div class="row text-white justify-content-center gap-5">
+            <div id="trans-item" class="col-12 col-lg-3 p-3 bg-danger">
+                <h5>Deposit</h5>
+                <h2>$<span id="currentDeposit">00</span></h2>
+            </div>
+            <div id="trans-item" class="col-12 col-lg-3 p-3 bg-warning">
+                <h5>Withdraw</h5>
+                <h2>$<span id="currentWithdraw">00</span></h2>
+            </div>
+            <div id="trans-item" class="col-12 col-lg-3 p-3 bg-info">
+                <h5>Balance</h5>
+                <h2>$<span id="currentBalance">1240</span></h2>
+            </div>
+        </div>
+        <div class="trans-area-two">
+            <div class="row justify-content-center mt-5 gap-4">
+                <div class="col-12 col-lg-5">
+                    <div id="tran-area" class="p-4">
+                        <h4>Deposit</h4>
+                        <input id="depositAmount" type="text" class="form-control"
+                            placeholder="$ amount you want to deposit"><br>
+                        <button id="deposit-btn" class="btn btn-success">Deposit</button>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-5">
+                    <div id="tran-area" class="p-4">
+                        <h4>Withdraw</h4>
+                        <input id="withdrawAmount" type="text" class="form-control"
+                            placeholder="$ amount you want to Withdraw"><br>
+                        <button id="withdraw-btn" class="btn btn-success">Withdraw</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
